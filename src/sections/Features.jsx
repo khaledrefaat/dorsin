@@ -1,15 +1,21 @@
 import React from "react";
-import { features, imageContainer, list, item } from "./Features.module.scss";
+import {
+  features,
+  topColumn,
+  imageContainer,
+  list,
+  item,
+} from "./Features.module.scss";
 
 import Description from "../components/Description";
 import Button from "../components/Button";
 
 const Features = ({ sectionStyles }) => {
   return (
-    <div className={`${features} ${sectionStyles}`}>
-      <div className="container-md">
+    <section className={`${features} ${sectionStyles}`}>
+      <div className="container">
         <div className="row">
-          <div className="col">
+          <div className={`col-md ${topColumn}`}>
             <h3 className="heading mb-5">
               A digital web design studio creating modern & engaging online
               experiences
@@ -33,14 +39,14 @@ const Features = ({ sectionStyles }) => {
               Learn More <i class="fas fa-arrow-right"></i>
             </Button>
           </div>
-          <div className="col">
+          <div className="col-md">
             <div className={imageContainer}>
               <img src="/images/online-world.svg" alt="img" />
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

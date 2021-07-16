@@ -1,5 +1,21 @@
+$bp-md: 768px;
+$bp-small: 450px;
+
 .features {
   background-color: #f8f9fa;
+  text-align: center;
+
+  @media only screen and (min-width: $bp-md) {
+    text-align: left;
+  }
+}
+
+.topColumn {
+  margin-bottom: 30px;
+
+  @media only screen and (min-width: $bp-md) {
+    margin-bottom: 0;
+  }
 }
 
 .imageContainer {
@@ -17,6 +33,11 @@
 
 .item {
   position: relative;
+  font-size: 14px;
+
+  @media only screen and (min-width: $bp-small) {
+    font-size: 16px;
+  }
 }
 
 .item::before {
@@ -29,6 +50,13 @@
   height: 8px;
   border-radius: 50%;
   background-color: #fb3e3e;
+
+  @media only screen and (min-width: $bp-small) {
+    left: 0;
+  }
+  @media only screen and (min-width: $bp-md) {
+    left: -20px;
+  }
 }
 
 .item:first-of-type {
