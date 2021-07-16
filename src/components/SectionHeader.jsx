@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./SectionHeader.module.scss";
+import Description from "./Description";
 
 const SectionHeader = ({ header, description }) => {
   return (
@@ -8,7 +9,7 @@ const SectionHeader = ({ header, description }) => {
         {header}
         <div className={classes.border} />
       </h1>
-      <p className={classes.description}>{description}</p>
+      <Description description={description} />
     </>
   );
 };

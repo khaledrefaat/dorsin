@@ -1,0 +1,40 @@
+.features {
+  background-color: #f8f9fa;
+}
+
+.imageContainer {
+  max-width: 500px;
+  margin-left: auto;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  top: 50%;
+  left: -20px;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fb3e3e;
+}
+
+.item:first-of-type {
+  margin-bottom: 10px;
+}
+
+.item:not(:first-of-type) {
+  margin: 10px 0;
+}
