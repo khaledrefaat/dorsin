@@ -1,9 +1,11 @@
 import React from "react";
-import { btn } from "./Button.module.scss";
+import { btn, curved, white } from "./Button.module.scss";
 
-const Button = ({ children, white, curved }) => {
+const Button = ({ children, iswhite, isCurved }) => {
   return (
-    <button className={`${btn} ${white ? white : ""} ${curved ? curved : ""}`}>
+    <button
+      className={`${btn} ${iswhite ? white : ""} ${isCurved ? curved : ""}`}
+    >
       {children}
     </button>
   );

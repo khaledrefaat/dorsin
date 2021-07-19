@@ -1,6 +1,8 @@
 import React from "react";
 import { header, header__layout, header__pattern } from "./Header.module.scss";
 
+import Nav from "../components/Nav";
+
 const Header = () => {
   return (
     <header
@@ -11,7 +13,7 @@ const Header = () => {
       <div className={header__pattern}>
         <img src="/images/bg-pattern.png" alt="pattern" />
       </div>
-      <div className="container">header</div>
+      <Nav />
     </header>
   );
 };
