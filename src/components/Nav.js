@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Button from "./Button";
 
 import {
@@ -8,13 +8,27 @@ import {
   nav__item,
   nav__icon,
   nav__listVisible,
+  nav__fixed,
 } from "./Nav.module.scss";
 
 const Nav = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      window.addEventListener("scroll", () => {
+        const offset = window.scrollY;
+        if (offset > 50) setScrolled(true);
+        else setScrolled(false);
+      });
+    }, 1000);
+    return () => {
+      clearTimeout(timerId);
+    };
+  }, [scrolled]);
   return (
-    <nav class={nav}>
+    <nav className={`${nav} navbar sticky ${scrolled ? nav__fixed : ""} `}>
       <div className={nav__brand}>
         <a href="#home">dorsin</a>
       </div>
@@ -45,7 +59,7 @@ const Nav = () => {
         </li>
       </ul>
       <i
-        class={`fas fa-bars ${nav__icon}`}
+        className={`fas fa-bars ${nav__icon}`}
         onClick={() => setIsVisible(!isVisible)}
       />
     </nav>

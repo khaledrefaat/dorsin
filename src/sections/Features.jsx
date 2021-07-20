@@ -36,7 +36,7 @@ const Features = ({ sectionStyles }) => {
               <li className={item}>Submit Your Orgnization.</li>
             </ul>
             <Button>
-              Learn More <i class="fas fa-arrow-right"></i>
+              Learn More <i className="fas fa-arrow-right"></i>
             </Button>
           </div>
           <div className="col-md">
