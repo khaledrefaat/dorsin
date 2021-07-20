@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 import {
@@ -7,16 +7,18 @@ import {
   nav__list,
   nav__item,
   nav__icon,
+  nav__listVisible,
 } from "./Nav.module.scss";
 
 const Nav = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
   return (
     <nav class={nav}>
       <div className={nav__brand}>
         <a href="#home">dorsin</a>
       </div>
-      <i class={`fas fa-bars ${nav__icon}`} />
-      <ul className={nav__list}>
+      <ul className={`${nav__list} ${isVisible ? nav__listVisible : ""}`}>
         <li className={nav__item}>
           <a href="#home">home</a>
         </li>
@@ -42,6 +44,10 @@ const Nav = () => {
           <Button isCurved>Try it free</Button>
         </li>
       </ul>
+      <i
+        class={`fas fa-bars ${nav__icon}`}
+        onClick={() => setIsVisible(!isVisible)}
+      />
     </nav>
   );
 };
