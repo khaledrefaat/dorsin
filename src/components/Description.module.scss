@@ -1,6 +1,12 @@
+$bp-500: 31.25em;
+
 .description {
   color: #95a0ab;
   letter-spacing: 0.02em;
-  font-size: 14.5px;
+  font-size: 12px;
   text-align: center;
+
+  @media only screen and (min-width: $bp-500) {
+    font-size: 14.5px;
+  }
 }
