@@ -1,3 +1,5 @@
+$bp-768: 48em;
+
 .card {
   display: flex;
   align-items: center;
@@ -5,6 +7,16 @@
   flex-direction: column;
   padding: 60px 0;
   box-shadow: 0 1rem 0.8rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+
+  @media only screen and (min-width: $bp-768) {
+    margin-bottom: 0;
+  }
+}
+
+.heading4,
+.heading6 {
+  text-transform: uppercase;
 }
 
 .heading4 {
@@ -35,5 +47,6 @@
 
   span {
     color: #f00;
+    text-transform: uppercase;
   }
 }

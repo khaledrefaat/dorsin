@@ -23,9 +23,9 @@ const Pricing = ({ sectionStyles }) => {
         <div className="row">
           <div className="col-md">
             <div className={card}>
-              <h4 className={`${heading4} mb-2`}>ECONOMY</h4>
+              <h4 className={`${heading4} mb-2`}>economy</h4>
               <h1 className={`${heading1} mb-2`}>$9.90</h1>
-              <h6 className={`${heading6}`}>BILLING PER MONTH</h6>
+              <h6 className={`${heading6}`}>billing per month</h6>
               <div className={`${divider} mb-4`} />
               <div className={`${plan}`}>
                 <p>
@@ -49,22 +49,22 @@ const Pricing = ({ sectionStyles }) => {
           </div>
           <div className="col-md">
             <div className={card}>
-              <h4 className={`${heading4} mb-2`}>ECONOMY</h4>
-              <h1 className={`${heading1} mb-2`}>$9.90</h1>
-              <h6 className={`${heading6}`}>BILLING PER MONTH</h6>
+              <h4 className={`${heading4} mb-2`}>deluxe</h4>
+              <h1 className={`${heading1} mb-2`}>$19.90</h1>
+              <h6 className={`${heading6}`}>billing per month</h6>
               <div className={`${divider} mb-4`} />
               <div className={`${plan}`}>
                 <p>
-                  bandwidth: <span>1GB</span>
+                  bandwidth: <span>10GB</span>
                 </p>
                 <p>
-                  onlinespace: <span>50MB</span>
+                  onlinespace: <span>500MB</span>
                 </p>
                 <p>
                   support: <span>no</span>
                 </p>
                 <p>
-                  domain: <span>1</span>
+                  domain: <span>10</span>
                 </p>
                 <p>
                   hidden fees: <span>No</span>
@@ -75,22 +75,22 @@ const Pricing = ({ sectionStyles }) => {
           </div>
           <div className="col-md">
             <div className={card}>
-              <h4 className={`${heading4} mb-2`}>ECONOMY</h4>
+              <h4 className={`${heading4} mb-2`}>ultimate</h4>
               <h1 className={`${heading1} mb-2`}>$9.90</h1>
-              <h6 className={`${heading6}`}>BILLING PER MONTH</h6>
+              <h6 className={`${heading6}`}>billing per month</h6>
               <div className={`${divider} mb-4`} />
               <div className={`${plan}`}>
                 <p>
-                  bandwidth: <span>1GB</span>
+                  bandwidth: <span>100GB</span>
                 </p>
                 <p>
-                  onlinespace: <span>50MB</span>
+                  onlinespace: <span>2GB</span>
                 </p>
                 <p>
-                  support: <span>no</span>
+                  support: <span>yes</span>
                 </p>
                 <p>
-                  domain: <span>1</span>
+                  domain: <span>unlimited</span>
                 </p>
                 <p>
                   hidden fees: <span>No</span>
