@@ -7,6 +7,7 @@ import WebDesc from "./sections/WebDesc";
 import Pricing from "./sections/Pricing";
 import Team from "./sections/Team";
 import Work from "./sections/Work";
+import Testimonial from "./sections/Testimonial";
 
 import classes from "./App.module.scss";
 
@@ -20,6 +21,7 @@ const App = () => {
       <Pricing sectionStyles={classes.section} />
       <Team sectionStyles={classes.section} />
       <Work sectionStyles={classes.section} />
+      <Testimonial sectionStyles={classes.section} />
     </div>
   );
 };
