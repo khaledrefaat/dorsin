@@ -6,6 +6,7 @@ import Features from "./sections/Features";
 import WebDesc from "./sections/WebDesc";
 import Pricing from "./sections/Pricing";
 import Team from "./sections/Team";
+import Work from "./sections/Work";
 
 import classes from "./App.module.scss";
 
@@ -18,6 +19,7 @@ const App = () => {
       <WebDesc />
       <Pricing sectionStyles={classes.section} />
       <Team sectionStyles={classes.section} />
+      <Work sectionStyles={classes.section} />
     </div>
   );
 };
