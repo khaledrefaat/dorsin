@@ -8,6 +8,7 @@ import Pricing from "./sections/Pricing";
 import Team from "./sections/Team";
 import Work from "./sections/Work";
 import Testimonial from "./sections/Testimonial";
+import GetStarted from "./sections/GetStarted";
 
 import classes from "./App.module.scss";
 
@@ -22,6 +23,7 @@ const App = () => {
       <Team sectionStyles={classes.section} />
       <Work sectionStyles={classes.section} />
       <Testimonial sectionStyles={classes.section} />
+      <GetStarted sectionStyles={classes.section} />
     </div>
   );
 };
