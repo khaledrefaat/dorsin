@@ -1,6 +1,7 @@
 import React from "react";
 
 import SectionHeader from "../components/SectionHeader";
+import Button from "../components/Button";
 
 import {
   work,
@@ -44,6 +45,11 @@ const Work = ({ sectionStyles }) => {
                 <p>The Big Oxmox advised her not to do so.</p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row mt-5">
+          <div className="col d-flex justify-content-center">
+            <Button>get started &#10132;</Button>
           </div>
         </div>
       </div>
