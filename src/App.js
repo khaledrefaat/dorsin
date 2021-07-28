@@ -9,6 +9,7 @@ import Team from "./sections/Team";
 import Work from "./sections/Work";
 import Testimonial from "./sections/Testimonial";
 import GetStarted from "./sections/GetStarted";
+import Blog from "./sections/Blog";
 
 import classes from "./App.module.scss";
 
@@ -24,6 +25,7 @@ const App = () => {
       <Work sectionStyles={classes.section} />
       <Testimonial sectionStyles={classes.section} />
       <GetStarted sectionStyles={classes.section} />
+      <Blog sectionStyles={classes.section} />
     </div>
   );
 };
