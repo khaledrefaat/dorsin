@@ -1,18 +1,19 @@
-import React from "react";
+import React from 'react';
 
-import Header from "./sections/Header";
-import Services from "./sections/Services";
-import Features from "./sections/Features";
-import WebDesc from "./sections/WebDesc";
-import Pricing from "./sections/Pricing";
-import Team from "./sections/Team";
-import Work from "./sections/Work";
-import Testimonial from "./sections/Testimonial";
-import GetStarted from "./sections/GetStarted";
-import Blog from "./sections/Blog";
-import Contact from "./sections/Contact";
+import Header from './sections/Header';
+import Services from './sections/Services';
+import Features from './sections/Features';
+import WebDesc from './sections/WebDesc';
+import Pricing from './sections/Pricing';
+import Team from './sections/Team';
+import Work from './sections/Work';
+import Testimonial from './sections/Testimonial';
+import GetStarted from './sections/GetStarted';
+import Blog from './sections/Blog';
+import Contact from './sections/Contact';
+import ContactSocial from './sections/ContactSocial';
 
-import classes from "./App.module.scss";
+import classes from './App.module.scss';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <GetStarted sectionStyles={classes.section} />
       <Blog sectionStyles={classes.section} />
       <Contact sectionStyles={classes.section} />
+      <ContactSocial sectionStyles={classes.section} />
     </div>
   );
 };
