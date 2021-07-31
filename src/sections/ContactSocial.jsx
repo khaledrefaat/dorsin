@@ -11,7 +11,7 @@ import {
   dribble,
 } from './ContactSocial.module.scss';
 
-const ContactSocial = ({ sectionStyles }) => {
+const ContactSocial = () => {
   return (
     <section className={` ${contactSocial}`}>
       <div className="container-md">
