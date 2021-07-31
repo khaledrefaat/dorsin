@@ -12,6 +12,7 @@ import GetStarted from './sections/GetStarted';
 import Blog from './sections/Blog';
 import Contact from './sections/Contact';
 import ContactSocial from './sections/ContactSocial';
+import Footer from './sections/Footer';
 
 import classes from './App.module.scss';
 
@@ -29,7 +30,8 @@ const App = () => {
       <GetStarted sectionStyles={classes.section} />
       <Blog sectionStyles={classes.section} />
       <Contact sectionStyles={classes.section} />
-      <ContactSocial sectionStyles={classes.section} />
+      <ContactSocial />
+      <Footer />
     </div>
   );
 };
