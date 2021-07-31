@@ -23,7 +23,7 @@ const ContactSocial = () => {
               rel="noreferrer"
               className={facebook}
             >
-              <i class="fab fa-facebook-f" />
+              <i className="fab fa-facebook-f" />
             </a>
             <a
               href="https://twitter.com/KhaledR15807100"
@@ -31,7 +31,7 @@ const ContactSocial = () => {
               rel="noreferrer"
               className={twitter}
             >
-              <i class="fab fa-twitter" />
+              <i className="fab fa-twitter" />
             </a>
             <a
               href="https://www.linkedin.com/in/khaled-refaat-elkady-370305168/"
@@ -39,7 +39,7 @@ const ContactSocial = () => {
               rel="noreferrer"
               className={linkedin}
             >
-              <i class="fab fa-linkedin-in" />
+              <i className="fab fa-linkedin-in" />
             </a>
             <a
               href="https://www.google.com/"
@@ -47,7 +47,7 @@ const ContactSocial = () => {
               rel="noreferrer"
               className={google}
             >
-              <i class="fab fa-google-plus-g" />
+              <i className="fab fa-google-plus-g" />
             </a>
             <a
               href="https://dribbble.com/"
@@ -55,14 +55,14 @@ const ContactSocial = () => {
               rel="noreferrer"
               className={dribble}
             >
-              <i class="fab fa-dribbble" />
+              <i className="fab fa-dribbble" />
             </a>
           </div>
           <p>
-            <i class="fas fa-phone" /> +91 123 4556 789
+            <i className="fas fa-phone" /> +91 123 4556 789
           </p>
           <p>
-            <i class="far fa-envelope-open" /> Support@info.com
+            <i className="far fa-envelope-open" /> Support@info.com
           </p>
         </div>
       </div>

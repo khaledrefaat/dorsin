@@ -1,7 +1,4 @@
-$bp-1100: 68.75em;
-$bp-950: 59.375em;
-$bp-850: 53.125em;
-$bp-600: 37.5em;
+@import '../vars.scss';
 
 .nav {
   z-index: 99;
@@ -59,7 +56,7 @@ $bp-600: 37.5em;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
     letter-spacing: 2px;

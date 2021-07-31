@@ -11,16 +11,16 @@ const Footer = () => {
             <h4 className="mb-4">Dorsin</h4>
             <ul>
               <li className="mb-2">
-                <a href="#">home</a>
+                <a href="/#">home</a>
               </li>
               <li className="mb-2">
-                <a href="#">about us</a>
+                <a href="/#">about us</a>
               </li>
               <li className="mb-2">
-                <a href="#">careers</a>
+                <a href="/#">careers</a>
               </li>
               <li>
-                <a href="#">contact us</a>
+                <a href="/#">contact us</a>
               </li>
             </ul>
           </div>
@@ -28,16 +28,16 @@ const Footer = () => {
             <h4 className="mb-4">information</h4>
             <ul>
               <li className="mb-2">
-                <a href="#">term & condition</a>
+                <a href="/#">term & condition</a>
               </li>
               <li className="mb-2">
-                <a href="#">about us</a>
+                <a href="/#">about us</a>
               </li>
               <li className="mb-2">
-                <a href="#">jobs</a>
+                <a href="/#">jobs</a>
               </li>
               <li>
-                <a href="#">bookmarks</a>
+                <a href="/#">bookmarks</a>
               </li>
             </ul>
           </div>
@@ -45,13 +45,13 @@ const Footer = () => {
             <h4 className="mb-4">support</h4>
             <ul>
               <li className="mb-2">
-                <a href="#">support</a>
+                <a href="/#">support</a>
               </li>
               <li className="mb-2">
-                <a href="#">faq</a>
+                <a href="/#">faq</a>
               </li>
               <li>
-                <a href="#">disscusion</a>
+                <a href="/#">disscusion</a>
               </li>
             </ul>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
             <h4 className="mb-4">subscripe</h4>
             <ul className="mb-4">
               <li>
-                <a href="#">
+                <a href="/#">
                   In an ideal world this text wouldn’t exist, a client would
                   acknowledge the importance of having web copy before the
                   design starts.
@@ -69,7 +69,7 @@ const Footer = () => {
             <form onSubmit={e => e.preventDefault()}>
               <input type="email" placeholder="Email" />
               <button type="submit">
-                <i class="far fa-paper-plane" />
+                <i className="far fa-paper-plane" />
               </button>
             </form>
           </div>

@@ -1,11 +1,10 @@
-$bp-md: 768px;
-$bp-small: 450px;
+@import '../vars.scss';
 
 .features {
   background-color: #f8f9fa;
   text-align: center;
 
-  @media only screen and (min-width: $bp-md) {
+  @media only screen and (min-width: $bp-768) {
     text-align: left;
   }
 }
@@ -13,7 +12,7 @@ $bp-small: 450px;
 .topColumn {
   margin-bottom: 30px;
 
-  @media only screen and (min-width: $bp-md) {
+  @media only screen and (min-width: $bp-768) {
     margin-bottom: 0;
   }
 }
@@ -35,13 +34,13 @@ $bp-small: 450px;
   position: relative;
   font-size: 14px;
 
-  @media only screen and (min-width: $bp-small) {
+  @media only screen and (min-width: $bp-450) {
     font-size: 16px;
   }
 }
 
 .item::before {
-  content: "";
+  content: '';
   top: 50%;
   left: -20px;
   position: absolute;
@@ -51,10 +50,10 @@ $bp-small: 450px;
   border-radius: 50%;
   background-color: #fb3e3e;
 
-  @media only screen and (min-width: $bp-small) {
+  @media only screen and (min-width: $bp-450) {
     left: 0;
   }
-  @media only screen and (min-width: $bp-md) {
+  @media only screen and (min-width: $bp-768) {
     left: -20px;
   }
 }

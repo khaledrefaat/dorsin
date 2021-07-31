@@ -1,5 +1,4 @@
-$bp-1200: 75em;
-$bp-992: 62em;
+@import '../vars.scss';
 
 .work {
   background-color: #f8f9fa;
@@ -88,7 +87,7 @@ $bp-992: 62em;
 
       &::after,
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         top: 30px;
         width: 67%;

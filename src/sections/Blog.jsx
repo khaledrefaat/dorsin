@@ -25,14 +25,14 @@ const Blog = ({ sectionStyles }) => {
               />
               <h5 className="mt-3">UI & UX Design</h5>
               <h4 className="mt-3">
-                <a href="#">Doing a cross country road trip</a>
+                <a href="/#">Doing a cross country road trip</a>
               </h4>
               <p>
                 She packed her seven versalia, put her initial into the belt and
                 made herself on the way..
               </p>
               <div>
-                <a href="#">Read More &#10132;</a>
+                <a href="/#">Read More &#10132;</a>
               </div>
             </div>
           </div>
@@ -45,14 +45,14 @@ const Blog = ({ sectionStyles }) => {
               />
               <h5 className="mt-3">Digital Marketing</h5>
               <h4 className="mt-3">
-                <a href="#">New exhibition at our Museum</a>
+                <a href="/#">New exhibition at our Museum</a>
               </h4>
               <p>
                 Pityful a rethoric question ran over her cheek, then she
                 continued her way.
               </p>
               <div>
-                <a href="#">Read More &#10132;</a>
+                <a href="/#">Read More &#10132;</a>
               </div>
             </div>
           </div>
@@ -65,14 +65,14 @@ const Blog = ({ sectionStyles }) => {
               />
               <h5 className="mt-3">Travelling</h5>
               <h4 className="mt-3">
-                <a href="#">Why are so many people..</a>
+                <a href="/#">Why are so many people..</a>
               </h4>
               <p>
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia.
               </p>
               <div>
-                <a href="#">Read More &#10132;</a>
+                <a href="/#">Read More &#10132;</a>
               </div>
             </div>
           </div>

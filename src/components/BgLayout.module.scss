@@ -1,6 +1,4 @@
-$bp-1050: 65.625em;
-$bp-750: 46.875em;
-$bp-450: 28.125em;
+@import '../vars.scss';
 
 .bglayout {
   background-image: linear-gradient(to right, #512da8, #711e72);
@@ -22,7 +20,7 @@ $bp-450: 28.125em;
   @media only screen and (min-width: $bp-450) {
     bottom: -6px;
   }
-  @media only screen and (min-width: $bp-750) {
+  @media only screen and (min-width: $bp-768) {
     bottom: -3px;
   }
   @media only screen and (min-width: $bp-1050) {

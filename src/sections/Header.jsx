@@ -1,9 +1,9 @@
-import React from "react";
-import { header, header__layout, header__pattern } from "./Header.module.scss";
+import React from 'react';
+import { header } from './Header.module.scss';
 
-import Nav from "../components/Nav";
-import HeadingDescription from "../components/HeadingDescription";
-import BgLayout from "../components/BgLayout";
+import Nav from '../components/Nav';
+import HeadingDescription from '../components/HeadingDescription';
+import BgLayout from '../components/BgLayout';
 
 const Header = () => {
   return (
