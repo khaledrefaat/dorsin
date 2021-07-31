@@ -1,7 +1,7 @@
-import React from "react";
-import SectionHeader from "../components/SectionHeader";
+import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 
-import { blog, blogBox } from "./Blog.module.scss";
+import { blog, blogBox } from './Blog.module.scss';
 
 const Blog = ({ sectionStyles }) => {
   return (
@@ -32,7 +32,7 @@ const Blog = ({ sectionStyles }) => {
                 made herself on the way..
               </p>
               <div>
-                <a href="#">Read More &#129122;</a>
+                <a href="#">Read More &#10132;</a>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Blog = ({ sectionStyles }) => {
                 continued her way.
               </p>
               <div>
-                <a href="#">Read More &#129122;</a>
+                <a href="#">Read More &#10132;</a>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Blog = ({ sectionStyles }) => {
                 Vokalia and Consonantia.
               </p>
               <div>
-                <a href="#">Read More &#129122;</a>
+                <a href="#">Read More &#10132;</a>
               </div>
             </div>
           </div>

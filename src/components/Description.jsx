@@ -1,9 +1,9 @@
-import React from "react";
-import { description } from "./Description.module.scss";
+import React from 'react';
+import { description, white } from './Description.module.scss';
 
-const Description = (props) => {
+const Description = props => {
   return (
-    <p className={description}>
+    <p className={`${description} ${props.descriptionWhite ? white : ''}`}>
       {props.children ? props.children : props.description}
     </p>
   );

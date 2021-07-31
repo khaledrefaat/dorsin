@@ -1,20 +1,19 @@
-import React from "react";
+import React from 'react';
 
-import { container, heading } from "./HeadingDescription.module.scss";
+import { container, heading } from './HeadingDescription.module.scss';
 
-import Description from "./Description";
+import Description from './Description';
 
 const HeadingDescription = ({
-  large,
-  small,
   headingContent,
   description,
   Button,
+  descriptionWhite,
 }) => {
   return (
     <div className={container}>
       <h1 className={heading}>{headingContent}</h1>
-      <Description>{description}</Description>
+      <Description descriptionWhite>{description}</Description>
       {Button ? <Button /> : null}
     </div>
   );

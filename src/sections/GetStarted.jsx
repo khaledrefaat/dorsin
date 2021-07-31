@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import HeadingDescription from "../components/HeadingDescription";
-import BgLayout from "../components/BgLayout";
+import HeadingDescription from '../components/HeadingDescription';
+import BgLayout from '../components/BgLayout';
 
-import { getStarted } from "./GetStarted.module.scss";
-import Button from "../components/Button";
+import { getStarted } from './GetStarted.module.scss';
+import Button from '../components/Button';
 
 const GetStarted = ({ sectionStyles }) => {
   return (
@@ -19,7 +19,8 @@ const GetStarted = ({ sectionStyles }) => {
             <HeadingDescription
               headingContent="Let's Get Started"
               description="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-              Button={() => <Button iswhite>Get Started &#129122;</Button>}
+              descriptionWhite
+              Button={() => <Button iswhite>Get Started &#10132;</Button>}
             />
           </div>
         </div>
