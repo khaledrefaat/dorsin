@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import SectionHeader from "../components/SectionHeader";
+import SectionHeader from '../components/SectionHeader';
 
-import { team, card } from "./Team.module.scss";
+import { team, card } from './Team.module.scss';
 
 const Team = ({ sectionStyles }) => {
   return (
-    <section className={`${sectionStyles} ${team}`}>
+    <section id="team" className={`${sectionStyles} ${team}`}>
       <div className="container">
         <div className="row">
           <div className="col">

@@ -8,6 +8,7 @@ import BgLayout from '../components/BgLayout';
 const Header = () => {
   return (
     <header
+      id="home"
       className={header}
       style={{ backgroundImage: 'url("/images/bg-home.jpg")' }}
     >

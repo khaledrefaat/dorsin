@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import SectionHeader from "../components/SectionHeader";
-import ServicesBox from "../components/ServicesBox";
+import SectionHeader from '../components/SectionHeader';
+import ServicesBox from '../components/ServicesBox';
 
 const Services = ({ sectionStyles }) => {
   return (

@@ -46,7 +46,7 @@ const Nav = () => {
           <a href="#pricing">pricing</a>
         </li>
         <li className={nav__item}>
-          <a href="team">team</a>
+          <a href="#team">team</a>
         </li>
         <li className={nav__item}>
           <a href="#blog">blog</a>

@@ -5,7 +5,7 @@ import { blog, blogBox } from './Blog.module.scss';
 
 const Blog = ({ sectionStyles }) => {
   return (
-    <section className={`${sectionStyles} ${blog}`}>
+    <section id="blog" className={`${sectionStyles} ${blog}`}>
       <div className="container">
         <div className="row">
           <div className="col">

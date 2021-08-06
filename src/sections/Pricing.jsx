@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import SectionHeader from "../components/SectionHeader";
-import Button from "../components/Button";
+import SectionHeader from '../components/SectionHeader';
+import Button from '../components/Button';
 
 import {
   card,
@@ -10,11 +10,11 @@ import {
   heading6,
   divider,
   plan,
-} from "./Pricing.module.scss";
+} from './Pricing.module.scss';
 
 const Pricing = ({ sectionStyles }) => {
   return (
-    <section className={sectionStyles}>
+    <section id="pricing" className={sectionStyles}>
       <SectionHeader
         header="OUR PRICING"
         description="Call to action pricing table is really crucial to your for your business website. Make your bids stand-out with amazing options."

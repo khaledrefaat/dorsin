@@ -18,10 +18,10 @@ const Contact = ({ sectionStyles }) => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = data => console.log(data);
 
   return (
-    <section className={`${sectionStyles} ${contact}`}>
+    <section id="contact" className={`${sectionStyles} ${contact}`}>
       <div className="container">
         <div className="row">
           <div className="col">

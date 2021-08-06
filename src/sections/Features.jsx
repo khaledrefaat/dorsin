@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 import {
   features,
   topColumn,
   imageContainer,
   list,
   item,
-} from "./Features.module.scss";
+} from './Features.module.scss';
 
-import Description from "../components/Description";
-import Button from "../components/Button";
+import Description from '../components/Description';
+import Button from '../components/Button';
 
 const Features = ({ sectionStyles }) => {
   return (
-    <section className={`${features} ${sectionStyles}`}>
+    <section id="features" className={`${features} ${sectionStyles}`}>
       <div className="container">
         <div className="row">
           <div className={`col-md ${topColumn}`}>
