@@ -2,6 +2,8 @@ import React from 'react';
 
 import { footer, payment } from './Footer.module.scss';
 
+import paymentImg from '../images/payment.png';
+
 const Footer = () => {
   return (
     <footer className={footer}>
@@ -80,7 +82,7 @@ const Footer = () => {
           2019 - 2020 © Dorsin - Themesbrand payment
         </div>
         <div className="col-md-6 col-sm-12">
-          <img src="/images/payment.png" alt="payment" />
+          <img src={paymentImg} alt="payment" />
         </div>
       </div>
     </footer>

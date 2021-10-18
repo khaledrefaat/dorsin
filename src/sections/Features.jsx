@@ -7,6 +7,8 @@ import {
   item,
 } from './Features.module.scss';
 
+import { ReactComponent as Svg } from '../images/online-world.svg';
+
 import Description from '../components/Description';
 import Button from '../components/Button';
 
@@ -41,7 +43,7 @@ const Features = ({ sectionStyles }) => {
           </div>
           <div className="col-md">
             <div className={imageContainer}>
-              <img src="/images/online-world.svg" alt="img" />
+              <Svg />
             </div>
           </div>
         </div>

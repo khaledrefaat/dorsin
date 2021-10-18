@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import { box } from "./Testimonial.module.scss";
+import { box } from './Testimonial.module.scss';
 
-import SectionHeader from "../components/SectionHeader";
+import SectionHeader from '../components/SectionHeader';
+
+import testimonialImg1 from '../images/ben-parker.jpg';
+import testimonialImg2 from '../images/brooke-cagle.jpg';
+import testimonialImg3 from '../images/vicky-hladynets.jpg';
 
 const Testimonial = ({ sectionStyles }) => {
   return (
@@ -19,7 +23,7 @@ const Testimonial = ({ sectionStyles }) => {
         <div className="row mt-5">
           <div className="col-lg-4 col-md-12">
             <div className={box}>
-              <img src="/images/ben-parker.jpg" alt="ben parker" />
+              <img src={testimonialImg1} alt="ben parker" />
               <p>
                 "I feel confident imposing change on myself. It's a lot more fun
                 progressing than looking back. That's why I need to throw curve
@@ -32,21 +36,21 @@ const Testimonial = ({ sectionStyles }) => {
           </div>
           <div className="col-lg-4 col-md-12">
             <div className={box}>
-              <img src="/images/brooke-cagle.jpg" alt="brooke cagle" />
+              <img src={testimonialImg2} alt="brooke cagle" />
               <p>
                 "Our task must be to free ourselves by widening our circle of
                 compassion to embrace all living creatures and the whole of
                 nature and its beauty."
               </p>
               <h5>
-                {" "}
+                {' '}
                 BROOKE CAGLE - <span>Worcester</span>
               </h5>
             </div>
           </div>
           <div className="col-lg-4 col-md-12">
             <div className={box}>
-              <img src="/images/vicky-hladynets.jpg" alt="vicky hladynets" />
+              <img src={testimonialImg3} alt="vicky hladynets" />
               <p>
                 "I've learned that people will forget what you said, people will
                 forget what you did, but people will never forget how you made

@@ -1,7 +1,10 @@
 import React from 'react';
 import SectionHeader from '../components/SectionHeader';
-
 import { blog, blogBox } from './Blog.module.scss';
+
+import blogImg1 from '../images/brooke-cagle-blog.jpg';
+import blogImg2 from '../images/campaign-creators.jpg';
+import blogImg3 from '../images/steven-lewis.jpg';
 
 const Blog = ({ sectionStyles }) => {
   return (
@@ -18,11 +21,7 @@ const Blog = ({ sectionStyles }) => {
         <div className="row mt-5">
           <div className="col-lg-4 col-md-12">
             <div className={blogBox}>
-              <img
-                src="/images/brooke-cagle-blog.jpg"
-                alt="ui ux blog"
-                className="mt-3"
-              />
+              <img src={blogImg1} alt="ui ux blog" className="mt-3" />
               <h5 className="mt-3">UI & UX Design</h5>
               <h4 className="mt-3">
                 <a href="/#">Doing a cross country road trip</a>
@@ -39,7 +38,7 @@ const Blog = ({ sectionStyles }) => {
           <div className="col-lg-4 col-md-12">
             <div className={blogBox}>
               <img
-                src="/images/campaign-creators.jpg"
+                src={blogImg2}
                 alt="digital marketing blog"
                 className="mt-3"
               />
@@ -58,11 +57,7 @@ const Blog = ({ sectionStyles }) => {
           </div>
           <div className="col-lg-4 col-md-12">
             <div className={blogBox}>
-              <img
-                src="/images/steven-lewis.jpg"
-                alt="travelling blog"
-                className="mt-3"
-              />
+              <img src={blogImg3} alt="travelling blog" className="mt-3" />
               <h5 className="mt-3">Travelling</h5>
               <h4 className="mt-3">
                 <a href="/#">Why are so many people..</a>
