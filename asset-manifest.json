@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dorsin/static/css/main.f50de7a4.chunk.css",
+    "main.js": "/dorsin/static/js/main.7b995d25.chunk.js",
+    "main.js.map": "/dorsin/static/js/main.7b995d25.chunk.js.map",
+    "runtime-main.js": "/dorsin/static/js/runtime-main.e00632cf.js",
+    "runtime-main.js.map": "/dorsin/static/js/runtime-main.e00632cf.js.map",
+    "static/css/2.4be38407.chunk.css": "/dorsin/static/css/2.4be38407.chunk.css",
+    "static/js/2.59568427.chunk.js": "/dorsin/static/js/2.59568427.chunk.js",
+    "static/js/2.59568427.chunk.js.map": "/dorsin/static/js/2.59568427.chunk.js.map",
+    "index.html": "/dorsin/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/dorsin/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.f50de7a4.chunk.css.map": "/dorsin/static/css/main.f50de7a4.chunk.css.map",
+    "static/js/2.59568427.chunk.js.LICENSE.txt": "/dorsin/static/js/2.59568427.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e00632cf.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.59568427.chunk.js",
+    "static/css/main.f50de7a4.chunk.css",
+    "static/js/main.7b995d25.chunk.js"
+  ]
+}
