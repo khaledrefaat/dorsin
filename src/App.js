@@ -18,7 +18,7 @@ import classes from './App.module.scss';
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Header />
       <Services sectionStyles={classes.section} />
       <Features sectionStyles={classes.section} />
@@ -32,7 +32,7 @@ const App = () => {
       <Contact sectionStyles={classes.section} />
       <ContactSocial />
       <Footer />
-    </div>
+    </main>
   );
 };
 
