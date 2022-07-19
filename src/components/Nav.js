@@ -30,7 +30,7 @@ const Nav = () => {
   return (
     <nav className={`${nav} navbar sticky ${scrolled ? nav__fixed : ''} `}>
       <div className={nav__brand}>
-        <a href="#home">dorsin</a>
+        <a href="#home">StartUp</a>
       </div>
       <ul className={`${nav__list} ${isVisible ? nav__listVisible : ''}`}>
         <li className={nav__item}>

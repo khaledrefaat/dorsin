@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-lg-3 col-md-12">
-            <h4 className="mb-4">Dorsin</h4>
+            <h4 className="mb-4">StartUp</h4>
             <ul>
               <li className="mb-2">
                 <a href="/#">home</a>
@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
       <div className={`row ${payment}`}>
         <div className="col-md-6 col-sm-12">
-          2019 - 2020 © Dorsin - Themesbrand payment
+          2019 - 2020 © StartUp - Themesbrand payment
         </div>
         <div className="col-md-6 col-sm-12">
           <img src={paymentImg} alt="payment" />
