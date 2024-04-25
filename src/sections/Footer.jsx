@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
       <div className={`row ${payment}`}>
         <div className="col-md-6 col-sm-12">
-          2019 - 2020 © StartUp - Themesbrand payment
+          Copyright © Khaled Elkady
         </div>
         <div className="col-md-6 col-sm-12">
           <img src={paymentImg} alt="payment" />
